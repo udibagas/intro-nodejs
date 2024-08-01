@@ -16,7 +16,7 @@
 // };
 
 exports.greet = function (name) {
-  console.log(`Hello, ${name}`);
+  return `Hello, ${name}`;
 };
 
 exports.test = () => {
